@@ -1,20 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.Control.Reactive.Universal.Rx.Net", "FSharp.Control.Reactive.Universal.Rx.Net\FSharp.Control.Reactive.Universal.Rx.Net.fsproj", "{BA98F4FC-3678-4F37-BC9C-A22B4AC08540}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.Control.Reactive.Universal.Rx.Net", "src\FSharp.Control.Reactive.Universal.Rx.Net\FSharp.Control.Reactive.Universal.Rx.Net.fsproj", "{BA98F4FC-3678-4F37-BC9C-A22B4AC08540}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.Control.Reactive.Universal.Rx.Abstractions", "FSharp.Control.Reactive.Universal.Rx.Abstractions\FSharp.Control.Reactive.Universal.Rx.Abstractions.fsproj", "{C1D3A9F3-997B-421F-BCF7-12921FA6B3B6}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.Control.Reactive.Universal.Rx.Abstractions", "src\FSharp.Control.Reactive.Universal.Rx.Abstractions\FSharp.Control.Reactive.Universal.Rx.Abstractions.fsproj", "{C1D3A9F3-997B-421F-BCF7-12921FA6B3B6}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.Control.Reactive.Universal.AsyncRx.Abstractions", "FSharp.Control.Reactive.Universal.AsyncRx.Abstractions\FSharp.Control.Reactive.Universal.AsyncRx.Abstractions.fsproj", "{87846457-04D1-4128-86B6-41452182F489}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.Control.Reactive.Universal.AsyncRx.Abstractions", "src\FSharp.Control.Reactive.Universal.AsyncRx.Abstractions\FSharp.Control.Reactive.Universal.AsyncRx.Abstractions.fsproj", "{87846457-04D1-4128-86B6-41452182F489}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rx", "Rx", "{D88F1612-C15F-47B4-B8FC-F32D7DB6A0AB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AsyncRx", "AsyncRx", "{0AD4AC53-0556-4D2F-9645-83E6F8484B70}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.Control.Reactive.Universal.Rx.Fable", "FSharp.Control.Reactive.Universal.Rx.Fable\FSharp.Control.Reactive.Universal.Rx.Fable.fsproj", "{30D0D269-46C3-4E3D-9275-BCEE7221D734}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.Control.Reactive.Universal.Rx.Fable", "src\FSharp.Control.Reactive.Universal.Rx.Fable\FSharp.Control.Reactive.Universal.Rx.Fable.fsproj", "{30D0D269-46C3-4E3D-9275-BCEE7221D734}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.Control.Reactive.Universal.AsyncRx.Fable", "FSharp.Control.Reactive.Universal.AsyncRx.Fable\FSharp.Control.Reactive.Universal.AsyncRx.Fable.fsproj", "{F0E8386C-CDA8-481A-A970-DB1D40E423D1}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.Control.Reactive.Universal.AsyncRx.Fable", "src\FSharp.Control.Reactive.Universal.AsyncRx.Fable\FSharp.Control.Reactive.Universal.AsyncRx.Fable.fsproj", "{F0E8386C-CDA8-481A-A970-DB1D40E423D1}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.Control.Reactive.Universal.AsyncRx.Net", "FSharp.Control.Reactive.Universal.AsyncRx.Net\FSharp.Control.Reactive.Universal.AsyncRx.Net.fsproj", "{48EEC494-0E13-4091-978D-E88C3495EAA9}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.Control.Reactive.Universal.AsyncRx.Net", "src\FSharp.Control.Reactive.Universal.AsyncRx.Net\FSharp.Control.Reactive.Universal.AsyncRx.Net.fsproj", "{48EEC494-0E13-4091-978D-E88C3495EAA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
