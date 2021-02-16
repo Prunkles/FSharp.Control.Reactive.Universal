@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.Control.Reactive.Universal.Rx.Net", "FSharp.Control.Reactive.Universal.Rx.Net\FSharp.Control.Reactive.Universal.Rx.Net.fsproj", "{BA98F4FC-3678-4F37-BC9C-A22B4AC08540}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.Control.Reactive.Universal.Rx.Abstractions", "FSharp.Control.Reactive.Universal.Rx.Abstractions\FSharp.Control.Reactive.Universal.Rx.Abstractions.fsproj", "{C1D3A9F3-997B-421F-BCF7-12921FA6B3B6}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.Control.Reactive.Universal.AsyncRx.Abstractions", "FSharp.Control.Reactive.Universal.AsyncRx.Abstractions\FSharp.Control.Reactive.Universal.AsyncRx.Abstractions.fsproj", "{87846457-04D1-4128-86B6-41452182F489}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rx", "Rx", "{D88F1612-C15F-47B4-B8FC-F32D7DB6A0AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AsyncRx", "AsyncRx", "{0AD4AC53-0556-4D2F-9645-83E6F8484B70}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.Control.Reactive.Universal.Rx.Fable", "FSharp.Control.Reactive.Universal.Rx.Fable\FSharp.Control.Reactive.Universal.Rx.Fable.fsproj", "{30D0D269-46C3-4E3D-9275-BCEE7221D734}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.Control.Reactive.Universal.AsyncRx.Fable", "FSharp.Control.Reactive.Universal.AsyncRx.Fable\FSharp.Control.Reactive.Universal.AsyncRx.Fable.fsproj", "{F0E8386C-CDA8-481A-A970-DB1D40E423D1}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharp.Control.Reactive.Universal.AsyncRx.Net", "FSharp.Control.Reactive.Universal.AsyncRx.Net\FSharp.Control.Reactive.Universal.AsyncRx.Net.fsproj", "{48EEC494-0E13-4091-978D-E88C3495EAA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA98F4FC-3678-4F37-BC9C-A22B4AC08540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA98F4FC-3678-4F37-BC9C-A22B4AC08540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA98F4FC-3678-4F37-BC9C-A22B4AC08540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA98F4FC-3678-4F37-BC9C-A22B4AC08540}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D3A9F3-997B-421F-BCF7-12921FA6B3B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D3A9F3-997B-421F-BCF7-12921FA6B3B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D3A9F3-997B-421F-BCF7-12921FA6B3B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D3A9F3-997B-421F-BCF7-12921FA6B3B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87846457-04D1-4128-86B6-41452182F489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87846457-04D1-4128-86B6-41452182F489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87846457-04D1-4128-86B6-41452182F489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87846457-04D1-4128-86B6-41452182F489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30D0D269-46C3-4E3D-9275-BCEE7221D734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D0D269-46C3-4E3D-9275-BCEE7221D734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D0D269-46C3-4E3D-9275-BCEE7221D734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D0D269-46C3-4E3D-9275-BCEE7221D734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0E8386C-CDA8-481A-A970-DB1D40E423D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0E8386C-CDA8-481A-A970-DB1D40E423D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0E8386C-CDA8-481A-A970-DB1D40E423D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0E8386C-CDA8-481A-A970-DB1D40E423D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48EEC494-0E13-4091-978D-E88C3495EAA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48EEC494-0E13-4091-978D-E88C3495EAA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48EEC494-0E13-4091-978D-E88C3495EAA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48EEC494-0E13-4091-978D-E88C3495EAA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1D3A9F3-997B-421F-BCF7-12921FA6B3B6} = {D88F1612-C15F-47B4-B8FC-F32D7DB6A0AB}
+		{BA98F4FC-3678-4F37-BC9C-A22B4AC08540} = {D88F1612-C15F-47B4-B8FC-F32D7DB6A0AB}
+		{87846457-04D1-4128-86B6-41452182F489} = {0AD4AC53-0556-4D2F-9645-83E6F8484B70}
+		{30D0D269-46C3-4E3D-9275-BCEE7221D734} = {D88F1612-C15F-47B4-B8FC-F32D7DB6A0AB}
+		{F0E8386C-CDA8-481A-A970-DB1D40E423D1} = {0AD4AC53-0556-4D2F-9645-83E6F8484B70}
+		{48EEC494-0E13-4091-978D-E88C3495EAA9} = {0AD4AC53-0556-4D2F-9645-83E6F8484B70}
+	EndGlobalSection
+EndGlobal
