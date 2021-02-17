@@ -4,4 +4,4 @@ open FSharp.Control.Reactive
 
 module E = Observable
 
-let inline map f source = E.map f source
+let inline map f (source: IObservable<_>) : IObservable<_> = E.map f source

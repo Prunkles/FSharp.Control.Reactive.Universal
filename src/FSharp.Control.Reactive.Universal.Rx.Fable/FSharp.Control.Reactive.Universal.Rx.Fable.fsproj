@@ -6,6 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <Compile Include="Translate.fs" />
         <Compile Include="RxFable.fs" />
     </ItemGroup>
 

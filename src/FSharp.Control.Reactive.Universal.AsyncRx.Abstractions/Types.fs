@@ -1,4 +1,4 @@
-﻿namespace FSharp.Control.Reactive.Universal.AsyncRx
+﻿namespace FSharp.Control.Reactive.Universal
 
 type IAsyncObserver<'T> =
     abstract OnNextAsync: value: 'T -> Async<unit>

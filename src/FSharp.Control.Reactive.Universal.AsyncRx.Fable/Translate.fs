@@ -7,12 +7,12 @@ type private AObvE<'a> = FSharp.Control.IAsyncObserver<'a>
 type private ADispE = FSharp.Control.IAsyncRxDisposable
 type private AObsE<'a> = FSharp.Control.IAsyncObservable<'a>
 
-type private AObvI<'a> = FSharp.Control.Reactive.Universal.AsyncRx.IAsyncObserver<'a>
-type private ADispI = FSharp.Control.Reactive.Universal.AsyncRx.IAsyncDisposable
-type private AObsI<'a> = FSharp.Control.Reactive.Universal.AsyncRx.IAsyncObservable<'a>
+type private AObvI<'a> = FSharp.Control.Reactive.Universal.IAsyncObserver<'a>
+type private ADispI = FSharp.Control.Reactive.Universal.IAsyncDisposable
+type private AObsI<'a> = FSharp.Control.Reactive.Universal.IAsyncObservable<'a>
 
 
-module AObv =
+module Obv =
     
     let inline e2i (e: AObvE<_>) : AObvI<_> =
         { new AObvI<_> with
@@ -26,7 +26,7 @@ module AObv =
             member _.OnErrorAsync(err) = i.OnErrorAsync(err)
             member _.OnCompletedAsync() = i.OnCompletedAsync() }
 
-module ADisp =
+module Disp =
     
     let inline e2i (e: ADispE) : ADispI =
         { new ADispI with
@@ -36,20 +36,20 @@ module ADisp =
         { new ADispE with
             member _.DisposeAsync() = i.DisposeAsync() }
     
-module AObs = 
+module Obs = 
 
     let inline e2i (e: AObsE<_>) : AObsI<_> =
         { new AObsI<_> with
             member _.SubscribeAsync(iaobv) = async {
-                let! eunsib = e.SubscribeAsync(AObv.i2e iaobv)
-                return ADisp.e2i eunsib
+                let! eunsib = e.SubscribeAsync(Obv.i2e iaobv)
+                return Disp.e2i eunsib
             }
         }
     
     let inline i2e (i: AObsI<_>) : AObsE<_> =
         { new AObsE<_> with
             member _.SubscribeAsync(eaobv) = async {
-                let! iunsub = i.SubscribeAsync(AObv.e2i eaobv)
-                return ADisp.i2e iunsub
+                let! iunsub = i.SubscribeAsync(Obv.e2i eaobv)
+                return Disp.i2e iunsub
             }
         }
